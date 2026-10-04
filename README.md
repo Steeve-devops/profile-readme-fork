@@ -424,6 +424,57 @@ Exploring:
 
 ---
 
+# 🤝 OPEN SOURCE CONTRIBUTIONS
+
+I contribute to public cloud, FinOps and DevOps projects. My changes go through the normal fork → feature branch → pull request → review → merge workflow.
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Merged%20PRs-2-2EA44F?style=flat-square&logo=github"/>
+  <img src="https://img.shields.io/badge/Lines%20Added-440%2B-0078D4?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Tests%20Added-8-8A2BE2?style=flat-square&logo=pytest&logoColor=white"/>
+</p>
+
+### 💰 cloudcost-cli
+
+An open-source, provider-neutral **FinOps data platform** with Arrow-based pipelines, SQL-first governance policies, and DuckDB, Postgres and BigQuery destinations.
+
+#### ✅ PR #24: Report command, webhook notifications, PyPI release automation and idle Azure checks
+
+- Added a `report` command to the CLI that writes cost findings as an **HTML report**.
+- Added **Slack/webhook notifications** so findings can be pushed to team channels.
+- Added PyPI package metadata and a **PyPI publish step** to the GitHub Actions release workflow.
+- Wrote three new SQL cost policies that detect idle **Azure API Management**, **Azure Kubernetes Fleet Manager** and **Azure Managed HSM** resources.
+- Covered every change with `pytest` tests: 8 new test files across the policies, the report, notifications, packaging and the release workflow.
+- **+417 lines across 13 files.** Reviewed, approved and merged by the maintainer.
+
+🔗 **Pull Request:** [raphgm/cloudcost-cli#24](https://github.com/raphgm/cloudcost-cli/pull/24)
+
+---
+
+### 📍 PinPoint Pro
+
+An open-source, context-aware **digital workspace** that works with any AI provider, with Azure OpenAI preferred.
+
+#### ✅ PR #46: Contributor record and repository hygiene
+
+- Added myself to `CONTRIBUTORS.md` as a project contributor.
+- Added a standard `.gitignore` so that local environment variables and OS-generated files are not committed.
+- Reviewed, approved and merged by the maintainer.
+
+🔗 **Pull Request:** [raphgm/pinpointpro#46](https://github.com/raphgm/pinpointpro/pull/46)
+
+---
+
+### 📈 Impact
+
+- **2 merged pull requests**, both reviewed and approved by the project maintainer.
+- Delivered features, cost-governance policies, CI/CD release automation and test coverage to a real FinOps codebase.
+- Comfortable with the full open-source collaboration workflow: issues, forks, branches, PRs, code review and merges.
+
+Looking forward to contributing more to open-source **Cloud, DevOps, FinOps and DevSecOps** projects.
+
+---
+
 # 🏆 MICROSOFT APPLIED SKILLS
 
 <p align="center">
